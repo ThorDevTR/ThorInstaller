@@ -1,0 +1,6 @@
+rich
+requests
+pyrogram
+tgcrypto
+heroku3
+gitpython
