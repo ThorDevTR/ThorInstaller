@@ -78,7 +78,7 @@ if __name__ == "__main__":
     config['SESSION_ADI'] = 'ThorUserBot'
     config['HEROKU_APIKEY'] = api
     config['HEROKU_APPNAME'] = appname
-
+    config['HEROKU'] = 'True'
 
     basarili("(✓) Veriler yazıldı!")
     bilgi('(i) Dyno açılıyor...')
