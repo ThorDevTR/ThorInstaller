@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     if os.path.isdir("./thoruserbot/"):
         del_it('./thoruserbot/')
-    repo = Repo.clone_from("https://github.com/ThorDevs/ThorUserBot", "./thoruserbot/", branch="main")
+    repo = Repo.clone_from("https://github.com/ThorDevTR/ThorUserBot", "./thoruserbot/", branch="main")
     basarili("(✓) ThorUserBot indirildi!")
     onemli("(i) Deploy işlemi başlatılıyor... (Bu İşlem Uzun Sürebilir)")
     app = hgit(heroku, repo, appname)
