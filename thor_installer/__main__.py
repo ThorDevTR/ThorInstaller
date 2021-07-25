@@ -19,7 +19,7 @@ def connect (api):
 def createApp (connect):
     appname = "thor" + str(time() * 1000)[-4:].replace(".", "") + str(random.randint(0,500))
     try:
-        connect.create_app(name=appname, stack_id_or_name='cedar', region_id_or_name="us")
+        connect.create_app(name=appname, stack_id_or_name='container', region_id_or_name="us")
     except requests.exceptions.HTTPError:
         hata("(!) Sanırım beşten fazla uygulamanız var. Yeni uygulama oluşturabilmek için bazılarını silmeniz gerekmekte.")
         exit(1)
